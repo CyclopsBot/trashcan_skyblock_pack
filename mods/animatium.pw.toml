@@ -1,0 +1,13 @@
+name = "Animatium"
+filename = "animatium-2.3+mc1.21.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zy0karK1/versions/MgBVmqxS/animatium-2.3%2Bmc1.21.5.jar"
+hash-format = "sha512"
+hash = "39a1099078ecdce57c6de2515e793e9cb8ed9fc5ce7e0ce847970c6a65ad368ebc3fafb19f94d826e60ca7c082c73b04e61f0fc5aae3c7ef029f8e3ac7b59945"
+
+[update]
+[update.modrinth]
+mod-id = "zy0karK1"
+version = "MgBVmqxS"

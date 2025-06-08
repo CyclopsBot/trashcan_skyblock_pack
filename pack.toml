@@ -1,0 +1,13 @@
+name = "Trashcans Skyblock Pack"
+author = "Trashcan_420"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7d03ffd6e60b45caf905d30142ed0eedaa0f09fb594c4394852f00111ae33a40"
+
+[versions]
+fabric = "0.16.14"
+minecraft = "1.21.5"

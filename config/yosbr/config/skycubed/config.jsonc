@@ -1,0 +1,305 @@
+{
+    // The version of the config file. Do not change this unless you know what you are doing.
+    "rconfig:version": 0,
+    // Valid Values: HEALTH, DEFENSE, MANA, NO_MANA, OVERFLOW_MANA, DRILL_FUEL, ABILITY, LOCATION, SKILL_XP, SKYBLOCK_XP, RIFT_TIME, ARMADILLO, CHARGES, ARMOR_STACK, CELLS_ALIGNMENT, SECRETS
+    "hiddenActionBarWidgets": [
+        "HEALTH",
+        "NO_MANA",
+        "DEFENSE",
+        "MANA"
+    ],
+    // Valid Values: HOTBAR, JUMP, EXPERIENCE, HEALTH, ARMOR, FOOD, AIR, SCOREBOARD, EFFECTS
+    "hiddenHudElements": [],
+    "overlays": {
+        "info": {
+            "enabled": true
+        },
+        "rpg": {
+            "enabled": true,
+            "skyblockLevel": false
+        },
+        "text": {
+            // Valid Values: DISABLED, NORMAL, EFFECTIVE
+            "healthDisplay": "NORMAL",
+            "manaEnabled": true,
+            "defenseEnabled": false
+        },
+        "tablist": {
+            "enabled": true,
+            // Valid Values: NORMAL, SKYBLOCK_LEVEL, ALPHABETICAL, FRIENDS
+            "sorting": "NORMAL"
+        },
+        "sack": {
+            "enabled": true,
+            "background": false,
+            "sackItems": []
+        },
+        "trophyFish": {
+            "enabled": false,
+            "background": false,
+            "showNumbers": true,
+            "showTotal": true,
+            "hideUnlocked": false
+        },
+        "map": {
+            "enabled": false
+        },
+        "dungeonmap": {
+            "enabled": false,
+            // [Color Format: RGB]
+            "normal_room": -6853299,
+            // [Color Format: RGB]
+            "spawn_room": -10059981,
+            // [Color Format: RGB]
+            "puzzle_room": -8437838,
+            // [Color Format: RGB]
+            "fairy_room": -884827,
+            // [Color Format: RGB]
+            "blood_room": -6737101,
+            // [Color Format: RGB]
+            "trap_room": -2588877,
+            // [Color Format: RGB]
+            "miniboss_room": -1710797,
+            // [Color Format: RGB]
+            "unknown_room": -11776948,
+            // [Color Format: RGB]
+            "normal_door": -6853299,
+            // [Color Format: RGB]
+            "wither_door": -15921907,
+            // [Color Format: RGB]
+            "blood_door": -6737101,
+            // [Color Format: RGB]
+            "puzzle_door": -8437838,
+            // [Color Format: RGB]
+            "trap_door": -2588877,
+            // [Color Format: RGB]
+            "miniboss_door": -1710797,
+            // [Color Format: RGB]
+            "fairy_door": -884827,
+            // [Color Format: RGB]
+            "unknown_door": -11776948
+        },
+        "pickupLog": {
+            "enabled": true,
+            "compact": true,
+            // Range: 1 - 60
+            "time": 5,
+            "sackItems": false,
+            // Valid Values: ITEM_STACK, DIFFERENCE, NAME
+            "appearance": [
+                "ITEM_STACK",
+                "DIFFERENCE",
+                "NAME"
+            ]
+        },
+        "commissions": {
+            "enabled": true,
+            "format": true,
+            "background": false
+        },
+        "npc": {
+            "enabled": true,
+            // Type: Float
+            "durationPerMessage": 2.5,
+            // Type: Float
+            "durationForActionMessage": 10.0,
+            "hideChatMessage": true
+        },
+        // Range: 0 - 99
+        "coldOverlay": 80,
+        "movableHotbar": false,
+        "windOverlay": false,
+        "positions": {
+            "rpg": {
+                // Type: Integer
+                "x": 5,
+                // Type: Integer
+                "y": 5,
+                // Type: Float
+                "scale": 1.0
+            },
+            "health": {
+                // Type: Integer
+                "x": 54,
+                // Type: Integer
+                "y": 16,
+                // Type: Float
+                "scale": 0.5
+            },
+            "mana": {
+                // Type: Integer
+                "x": 54,
+                // Type: Integer
+                "y": 10,
+                // Type: Float
+                "scale": 0.5
+            },
+            "defense": {
+                // Type: Integer
+                "x": 90,
+                // Type: Integer
+                "y": 3,
+                // Type: Float
+                "scale": 1.0
+            },
+            "commissions": {
+                // Type: Integer
+                "x": 0,
+                // Type: Integer
+                "y": 100,
+                // Type: Float
+                "scale": 1.0
+            },
+            "sack": {
+                // Type: Integer
+                "x": -300,
+                // Type: Integer
+                "y": 10,
+                // Type: Float
+                "scale": 1.0
+            },
+            "trophyFish": {
+                // Type: Integer
+                "x": -600,
+                // Type: Integer
+                "y": 10,
+                // Type: Float
+                "scale": 1.0
+            },
+            "pickupLog": {
+                // Type: Integer
+                "x": 0,
+                // Type: Integer
+                "y": 150,
+                // Type: Float
+                "scale": 1.0
+            },
+            "map": {
+                // Type: Integer
+                "x": -90,
+                // Type: Integer
+                "y": 0,
+                // Type: Float
+                "scale": 1.0
+            },
+            "hotbar": {
+                // Type: Integer
+                "x": 0,
+                // Type: Integer
+                "y": -22,
+                // Type: Float
+                "scale": 1.0
+            },
+            "info": {
+                // Type: Integer
+                "x": 0,
+                // Type: Integer
+                "y": 0,
+                // Type: Float
+                "scale": 1.0
+            }
+        }
+    },
+    "screens": {
+        "equipment": true,
+        "wardrobe": {
+            "enabled": true,
+            "textures": true
+        }
+    },
+    "items": {
+        "itembars": true,
+        "cooldowns": true
+    },
+    "chat": {
+        "chatColors": true,
+        "compactChat": true,
+        "messagesToClean": [
+            "^Profile ID:",
+            "^You are playing on profile:",
+            "^\\[WATCHDOG ANNOUNCEMENT]",
+            "^Watchdog has banned",
+            "^Staff have banned an additional",
+            "^Blacklisted modifications are a bannable offense!",
+            "^Couldn't warp you! Try again later.",
+            "^ *A FIRE SALE.*to grab yours!$"
+        ]
+    },
+    "notifications": {
+        "friendJoinLeave": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "guildJoinLeave": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "hoppityYouFound": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "hoppityEggAppeared": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "skymall": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 10000
+        },
+        "monolith": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "riftOrb": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "blocksInTheWay": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "warping": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "combo": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 1500
+        },
+        "fishing": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        },
+        "gifts": {
+            "hideChatMessage": true,
+            "showAsToast": true,
+            // Range: 0 - 30000
+            "toastDuration": 5000
+        }
+    },
+    "render": {
+        "showOwnTag": false
+    }
+}
