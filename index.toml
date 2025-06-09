@@ -5,6 +5,11 @@ file = "config/yosbr/config/skycubed/config.jsonc"
 hash = "934a71dd35e4cc2a43e8fb9e6a11fe3bf64f6095dce5400205a925816096eca9"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "9c5ffe0f93aec9ebca86a4e5171ccb51e283849eef1719c995d19c2480e2d07c"
+metafile = true
+
+[[files]]
 file = "mods/animatium.pw.toml"
 hash = "c6538da55a50a15491f803b3285a116db055d335c61e0f66561ab8cc57c23b08"
 metafile = true
@@ -30,6 +35,11 @@ hash = "39d2695bf316d7d48d21da0ae6b38ea3e74c47c3b07c93bbade4dd753df90321"
 metafile = true
 
 [[files]]
+file = "mods/capes.pw.toml"
+hash = "20d7b9a3333ef86d70c3b3becaeccc9ef5961c41e8cd936bb1df9cf0b946c546"
+metafile = true
+
+[[files]]
 file = "mods/chatpatches.pw.toml"
 hash = "c1a20b2bba51cb198384a2bf098fa393351701221b763cc3059a297e77d2dc0d"
 metafile = true
@@ -52,6 +62,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "b37d9f4fb121ed3f9e766cebf90007f9ed73cd082571772364deb6a05f8d2123"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "847dce2251028733f139692907e89466896dc6ca35cfcc1bdaa0ec1f02aebefb"
 metafile = true
 
 [[files]]
@@ -90,6 +105,11 @@ hash = "967a780be97bec40b8bca4945a053ee4fbd05d58e218c4fb803959ac0d0c7f08"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "1786b498f433c215822363bf6c380df4070dd74a679060e1a4fceea16f7f27c7"
+metafile = true
+
+[[files]]
 file = "mods/fast-ip-ping.pw.toml"
 hash = "41504449b69a32068d2db598dfbc8d3690690e16a3a6d5cc1af256fbead1f653"
 metafile = true
@@ -105,6 +125,11 @@ hash = "2f25afc73a6f044f84c121623682515d1bab0764518358965ad5afe75aeb35f9"
 metafile = true
 
 [[files]]
+file = "mods/flashback.pw.toml"
+hash = "b50e5adbe6e510c832d9acf75c85689b40cec041d52ae969940d0632cc8ee67e"
+metafile = true
+
+[[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "af10334d5cb965e4255f864d8fe2c3bad90e571492bf61fd84fb55c9a9506d59"
 metafile = true
@@ -112,6 +137,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "c3741eb99da1676db710022999844ad608687b2008743403e840b3e9df8c5cba"
+metafile = true
+
+[[files]]
+file = "mods/gamma-utils.pw.toml"
+hash = "772b4329e035c8b0dbb728ab5c005bca5b5ea398880f7ab2edbec8a1414e8347"
 metafile = true
 
 [[files]]
@@ -125,6 +155,11 @@ hash = "623f91f5cb2cfe0e7c3a6fc48ae5984dfad62e85389e2567ab5421f7d9d02c51"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "820eacc6717106eddac9575c37eea54c6b53cffcb9db59253b30dc84a79be21a"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "e26dacab5ed497b7bf6500e389eba5e21cd4b9d7b38089045cd26818a4d2f589"
 metafile = true
@@ -132,6 +167,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "5773d3e597b591a9cd1d6d0808aa5820ecfef9f95c3ebe88aae485980f032e8a"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "a17dd4e47b6d4d116457904dabe057b1521304b1279524abc372d7d9534c4dd8"
 metafile = true
 
 [[files]]
@@ -240,6 +280,11 @@ hash = "2a9011d40ba7956500f8c721c63b25f5757b32856096769fc6c1188f2c6bd396"
 metafile = true
 
 [[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "abe9878dcb237d56e2ba70c17db8c721c6c2b8e62b241bc333539d5bc6be938f"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "700caca572649f238e804258f79d25969031be3e1b01d0384eb54a13200caba6"
 metafile = true
@@ -257,6 +302,11 @@ metafile = true
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
 hash = "dee7712131e72105b1a9dafe6e103308e33023a4a48ec3b3868298d8d6c4ed6c"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "7c6d8dcec95023f027deff6645570ddccadc762545ae8fbd23b21499b15bc949"
 metafile = true
 
 [[files]]
