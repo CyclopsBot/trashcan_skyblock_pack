@@ -1,0 +1,4 @@
+enableVsync:false
+fullscreen:true
+guiScale:2
+maxFps:900000

@@ -1,12 +1,33 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/yosbr/config/firmament/price-data.json"
+hash = "52c59172b492cca8d8744585ea93952f1ef83536640e207519574a834d83a70b"
+
+[[files]]
+file = "config/yosbr/config/one-click-join"
+hash = "301c254371d952e8fe5dcaf0ba36d6ba8a464e55a9f23f40acc1f14a343bd8d9"
+
+[[files]]
+file = "config/yosbr/config/options.txt"
+hash = "46e3ff821134cf9b73e64a6350c2ce0b90d295297f4541bdcce2816ad794293f"
+
+[[files]]
+file = "config/yosbr/config/skyblocker.json"
+hash = "1c0d140ca75fed9f7440b897b4667c058edfe417e61de1a8cf37179bdfe4d40d"
+
+[[files]]
 file = "config/yosbr/config/skycubed/config.jsonc"
 hash = "934a71dd35e4cc2a43e8fb9e6a11fe3bf64f6095dce5400205a925816096eca9"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "9c5ffe0f93aec9ebca86a4e5171ccb51e283849eef1719c995d19c2480e2d07c"
+metafile = true
+
+[[files]]
+file = "mods/animatica.pw.toml"
+hash = "ff31791271197f8122fb52893e7e67d86ba038dd0e77e57227ef84de8f7e069e"
 metafile = true
 
 [[files]]
@@ -62,6 +83,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "b37d9f4fb121ed3f9e766cebf90007f9ed73cd082571772364deb6a05f8d2123"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "a90139b002d632ba9256cb3e7e877945bf8e3afa5b191d1adc83c5e3eb72da4c"
 metafile = true
 
 [[files]]
@@ -271,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/skycubed.pw.toml"
-hash = "0aa1aadbc4b65a3dad09a3d37fdcd284e9de11e8542f55ddf9dbf56f75c35a2c"
+hash = "f827df660073c412d660cb45bc617429f35b83ea5d4077758a2f92057cd819a9"
 metafile = true
 
 [[files]]
@@ -297,6 +323,11 @@ metafile = true
 [[files]]
 file = "mods/tooltip-scroll.pw.toml"
 hash = "c6fde1b7c9da84cc6dcd1259bd63ad354f9a251c5510d4dac0f7b76b9cebb4e0"
+metafile = true
+
+[[files]]
+file = "mods/viafabricplus.pw.toml"
+hash = "645696d11ed58a0c62b126d391e8c9f0fd5e324cac833a3405d7a9c56c2a1ab9"
 metafile = true
 
 [[files]]
