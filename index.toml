@@ -1,8 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "COPY.bara.sky"
+hash = "d14d003943dcc9768574224cd25f9e699127ab759248fc0c6acfd94b2ec52bc1"
+
+[[files]]
+file = "LICENSE"
+hash = "4e2f17d6fd2ac87f250a0a7ad9dddc25ad038f63ec0593185f529863b2041df4"
+
+[[files]]
+file = "README.md"
+hash = "424a524d453379fada4d0104a77a6472a5115027ada76cffab14179603d315c1"
+
+[[files]]
 file = "config/yosbr/config/firmament/price-data.json"
-hash = "52c59172b492cca8d8744585ea93952f1ef83536640e207519574a834d83a70b"
+hash = "c27fa48506f08ee32879b976918663373a954cfb36d9329fcf22510ea4548b0b"
 
 [[files]]
 file = "config/yosbr/config/one-click-join"
@@ -14,7 +26,7 @@ hash = "46e3ff821134cf9b73e64a6350c2ce0b90d295297f4541bdcce2816ad794293f"
 
 [[files]]
 file = "config/yosbr/config/skyblocker.json"
-hash = "1c0d140ca75fed9f7440b897b4667c058edfe417e61de1a8cf37179bdfe4d40d"
+hash = "c3c294b28da7672ff5e191b1f1f0c5e8630beda63a1b5a5e0f8be559baadd49b"
 
 [[files]]
 file = "config/yosbr/config/skycubed/config.jsonc"
@@ -23,11 +35,6 @@ hash = "934a71dd35e4cc2a43e8fb9e6a11fe3bf64f6095dce5400205a925816096eca9"
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "9c5ffe0f93aec9ebca86a4e5171ccb51e283849eef1719c995d19c2480e2d07c"
-metafile = true
-
-[[files]]
-file = "mods/animatica.pw.toml"
-hash = "ff31791271197f8122fb52893e7e67d86ba038dd0e77e57227ef84de8f7e069e"
 metafile = true
 
 [[files]]
@@ -298,6 +305,11 @@ metafile = true
 [[files]]
 file = "mods/skycubed.pw.toml"
 hash = "f827df660073c412d660cb45bc617429f35b83ea5d4077758a2f92057cd819a9"
+metafile = true
+
+[[files]]
+file = "mods/skylens.pw.toml"
+hash = "c23c0a0422156b163a01dfc6bd1d63aaabcf13168637f038bd295b971b2670f8"
 metafile = true
 
 [[files]]

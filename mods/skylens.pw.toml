@@ -1,0 +1,13 @@
+name = "Skylens"
+filename = "skylens-1.4+1.21.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/t7lUNdFA/versions/xF5L07Up/skylens-1.4%2B1.21.5.jar"
+hash-format = "sha512"
+hash = "a74501c8413d3590407240c37793472b937c19e76308d96ec1e6425a8cfd32167a40d558521097948302126426338653147ecf50507bb529e83c38c01523362d"
+
+[update]
+[update.modrinth]
+mod-id = "t7lUNdFA"
+version = "xF5L07Up"

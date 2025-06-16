@@ -1,12 +1,12 @@
 name = "Trashcans Skyblock Pack"
 author = "Trashcan_420"
-version = "0.0.1"
+version = "0.0.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a1dec7cb029900a3fc96b602179e494adae8ca94b1349c1f104e40ce1c61f983"
+hash = "617f551b0f3d8159466f56c4d62ebaf963d3535cb27da21bd6d1ac5ee69dc0a4"
 
 [versions]
 fabric = "0.16.14"
