@@ -27,7 +27,7 @@ def register_workflow():
         origin_files = glob(["apps/minecraft/skyblock-pack/**"], exclude = ["copy.bara.sky"]),
         destination_files = glob(["**"]),
         authoring = authoring.pass_thru(default = "Copybara <copybara@cyclopsbot.xyz>"),
-        transformations = remove_internal + [
+        transformations =[
             # Dont leak our internal repo structure to external consumers.
             core.transform(
                 transformations = [
@@ -37,7 +37,7 @@ def register_workflow():
                     core.move("", "apps/minecraft/skyblock-pack"),
                 ],
             ),
-        ] + insert_metadata,
+        ] + insert_metadata + remove_internal,
     )
 
     core.workflow(
